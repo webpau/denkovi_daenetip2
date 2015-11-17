@@ -32,7 +32,7 @@ To write P5
 To close
 
 <code>dae.close</code><br/>
-<code>true</code><br/>
+<code>=> true</code><br/>
 
 
 
