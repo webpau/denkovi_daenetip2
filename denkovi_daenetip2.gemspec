@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'denkovi_daenetip2'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2015-11-17'
   s.summary     = "SNMP gem to use with your DENKOVI DAENETIP2!"
   s.description = "Simple commands to retrieve state"
