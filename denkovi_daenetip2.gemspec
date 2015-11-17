@@ -8,5 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'pablocarrillos@gmail.com'
   s.files       = ["lib/denkovi_daenetip2.rb"]
   s.homepage    = ''
+  s.add_runtime_dependency "snmp"
   s.license       = 'MIT'
 end
