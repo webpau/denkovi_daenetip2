@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Pablo Carrillos"]
   s.email       = 'pablocarrillos@gmail.com'
   s.files       = ["lib/denkovi_daenetip2.rb"]
-  s.homepage    = ''
-  s.add_runtime_dependency "snmp"
+  s.homepage    = 'https://github.com/webpau/denkovi_daenetip2'
+  s.add_runtime_dependency 'snmp'
   s.license       = 'MIT'
 end
