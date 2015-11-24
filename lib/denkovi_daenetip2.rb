@@ -5,10 +5,10 @@ require 'snmp'
 class DaenetIP2
   attr_accessor :ip, :port, :read_pass, :write_pass
 
-  ::WRITE_PORT_P3 = '1.3.6.1.4.1.19865.1.2.1.'
-  ::WRITE_PORT_P5 = '1.3.6.1.4.1.19865.1.2.2.'
-  ::READ_PORT6 = '1.3.6.1.4.1.19865.1.2.3.'
-  ::READ_ALL = '1.3.6.1.4.1.19865.1.2.3.33.0'
+  DaenetIP2::WRITE_PORT_P3 = '1.3.6.1.4.1.19865.1.2.1.'
+  DaenetIP2::WRITE_PORT_P5 = '1.3.6.1.4.1.19865.1.2.2.'
+  DaenetIP2::READ_PORT6 = '1.3.6.1.4.1.19865.1.2.3.'
+  DaenetIP2::READ_ALL = '1.3.6.1.4.1.19865.1.2.3.33.0'
 
   #Creates a SNMP Manager
   def initialize(ip, port, read_pass, write_pass)

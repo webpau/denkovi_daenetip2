@@ -9,6 +9,5 @@ Gem::Specification.new do |s|
   s.files       = ["lib/denkovi_daenetip2.rb"]
   s.homepage    = 'https://github.com/webpau/denkovi_daenetip2'
   s.add_runtime_dependency 'snmp'
-  s.add_runtime_dependency 'rake', '~> 0'
   s.license       = 'MIT'
 end
