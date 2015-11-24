@@ -1,5 +1,5 @@
 # denkovi_daenetip2
-Ruby gem to control a DENKOVI DaenetIP2
+Ruby gem to control a DENKOVI DaenetIP2 using SNMP commands
 
 To install
 <code>gem install denkovi_daenetip2</code>
