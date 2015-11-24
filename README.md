@@ -8,7 +8,7 @@ To use:<br/>
 <code>irb</code><br/>
 <code>require 'denkovi_daenetip2'</code><br/>
 <code>=> true</code><br/>
-<code>dae = DaenetIP2.new("[daenetip2_IP]",[daenetip2_PORT],"[SNMP_read_write_c</code><br/>
+<code>dae = DaenetIP2.new("[daenetip2_IP]",[daenetip2_SNMP_PORT],"[SNMP read-write community string]","[SNMP read-only community string]")</code><br/>
 <code>=> true</code><br/>
 
 
