@@ -1,2 +1,5 @@
 *.gem
 
+cumentation cache and generated files:
+/.yardoc/
+/_yardoc/
